@@ -9,7 +9,7 @@
   export let css_observer = "";
   export let css_animation = "";
 
-  let observing = true;
+  export let observing = true;
   // for some reason the 'bind:this={box}' on div stops working after npm run build... so... workaround time >:|
   const countainer = `__saos-${Math.random()}__`;
 
